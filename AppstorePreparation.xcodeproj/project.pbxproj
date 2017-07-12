@@ -18,6 +18,7 @@
 		6F59847D1F1626A7008AB27D /* icon-table.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6F5984751F1626A7008AB27D /* icon-table.pdf */; };
 		6F59847F1F1626A7008AB27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5984781F1626A7008AB27D /* LaunchScreen.storyboard */; };
 		6F5984801F1626A7008AB27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F59847A1F1626A7008AB27D /* Main.storyboard */; };
+		6F5984821F1628E5008AB27D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6F5984811F1628E5008AB27D /* README.md */; };
 		6F7FC63E1F15E8670053F3DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FC63D1F15E8670053F3DE /* StoreKit.framework */; };
 		BBDD12D1238C93566979D95F /* Pods_AppstorePreparation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCEF996908EB3BF7B286940 /* Pods_AppstorePreparation.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		6F5984751F1626A7008AB27D /* icon-table.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "icon-table.pdf"; sourceTree = "<group>"; };
 		6F5984791F1626A7008AB27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F59847B1F1626A7008AB27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F5984811F1628E5008AB27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F7FC63D1F15E8670053F3DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6F7FC6401F15EE510053F3DE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6FBC5742BDCC52CDA98DE769 /* Pods-AppstorePreparation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppstorePreparation.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppstorePreparation/Pods-AppstorePreparation.release.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		6F7FC63F1F15EE040053F3DE /* DependancyManager */ = {
 			isa = PBXGroup;
 			children = (
+				6F5984811F1628E5008AB27D /* README.md */,
 				6F59845F1F1618D1008AB27D /* AppstorePreparation.entitlements */,
 				6F7FC6401F15EE510053F3DE /* Podfile */,
 			);
@@ -433,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5984821F1628E5008AB27D /* README.md in Sources */,
 				6F59845E1F161842008AB27D /* ViewController.m in Sources */,
 				6F5984561F1616F6008AB27D /* main.m in Sources */,
 				6F5984551F1616F6008AB27D /* AppDelegate.m in Sources */,
