@@ -1,0 +1,21 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
+
+DEPENDENCIES:
+  - Charts
+  - Crashlytics
+  - Fabric
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+
+PODFILE CHECKSUM: d0e84e9c9bea9e6f4ea023b1547ebee750bc97a7
+
+COCOAPODS: 1.2.0
