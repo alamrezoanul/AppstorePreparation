@@ -9,6 +9,7 @@ target 'AppstorePreparation' do
 
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'Realm'
   pod 'Charts'  
   
 end

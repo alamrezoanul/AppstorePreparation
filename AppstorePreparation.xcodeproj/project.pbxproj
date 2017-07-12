@@ -19,6 +19,8 @@
 		6F59847F1F1626A7008AB27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5984781F1626A7008AB27D /* LaunchScreen.storyboard */; };
 		6F5984801F1626A7008AB27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F59847A1F1626A7008AB27D /* Main.storyboard */; };
 		6F5984821F1628E5008AB27D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6F5984811F1628E5008AB27D /* README.md */; };
+		6F59848B1F163FAC008AB27D /* ColorDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F59848A1F163FAC008AB27D /* ColorDataTable.m */; };
+		6F5984911F1643B7008AB27D /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F59848F1F1643B7008AB27D /* AppUtility.m */; };
 		6F7FC63E1F15E8670053F3DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FC63D1F15E8670053F3DE /* StoreKit.framework */; };
 		BBDD12D1238C93566979D95F /* Pods_AppstorePreparation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCEF996908EB3BF7B286940 /* Pods_AppstorePreparation.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +86,11 @@
 		6F5984791F1626A7008AB27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F59847B1F1626A7008AB27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F5984811F1628E5008AB27D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F59848A1F163FAC008AB27D /* ColorDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDataTable.m; sourceTree = "<group>"; };
+		6F59848E1F1643B7008AB27D /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		6F59848F1F1643B7008AB27D /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		6F5984901F1643B7008AB27D /* CommonHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeaders.h; sourceTree = "<group>"; };
+		6F5984921F164428008AB27D /* ColorDataTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorDataTable.h; sourceTree = "<group>"; };
 		6F7FC63D1F15E8670053F3DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6F7FC6401F15EE510053F3DE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6FBC5742BDCC52CDA98DE769 /* Pods-AppstorePreparation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppstorePreparation.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppstorePreparation/Pods-AppstorePreparation.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +132,7 @@
 		6F0219A11F14E54D00990316 = {
 			isa = PBXGroup;
 			children = (
+				6F5984881F163C61008AB27D /* RealmTables */,
 				6F7FC63F1F15EE040053F3DE /* DependancyManager */,
 				4B7452891F153D9E0049A0C0 /* ChartsWrapper */,
 				6F0219C41F14E7BB00990316 /* FrameworksFromSource */,
@@ -146,6 +154,7 @@
 		6F0219AC1F14E54D00990316 /* TheAppCodes */ = {
 			isa = PBXGroup;
 			children = (
+				6F59848D1F1643B7008AB27D /* Prerequisites */,
 				6F5984731F1626A7008AB27D /* Resources */,
 				6F5984581F161842008AB27D /* ViewControllers */,
 				6F5984511F1616F6008AB27D /* EntryPoint */,
@@ -260,6 +269,26 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		6F5984881F163C61008AB27D /* RealmTables */ = {
+			isa = PBXGroup;
+			children = (
+				6F5984921F164428008AB27D /* ColorDataTable.h */,
+				6F59848A1F163FAC008AB27D /* ColorDataTable.m */,
+			);
+			path = RealmTables;
+			sourceTree = "<group>";
+		};
+		6F59848D1F1643B7008AB27D /* Prerequisites */ = {
+			isa = PBXGroup;
+			children = (
+				6F59848E1F1643B7008AB27D /* AppUtility.h */,
+				6F59848F1F1643B7008AB27D /* AppUtility.m */,
+				6F5984901F1643B7008AB27D /* CommonHeaders.h */,
+			);
+			name = Prerequisites;
+			path = TheAppCodes/Prerequisites;
+			sourceTree = SOURCE_ROOT;
+		};
 		6F7FC63F1F15EE040053F3DE /* DependancyManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +313,7 @@
 				6F021B151F14EA3800990316 /* Embed Frameworks */,
 				93AAEC8AD07C19C5BFB60BBC /* [CP] Embed Pods Frameworks */,
 				800D45F6601B6F85FB9E24BA /* [CP] Copy Pods Resources */,
+				6F59848C1F1642A1008AB27D /* [Run Script] Fabric */,
 			);
 			buildRules = (
 			);
@@ -384,6 +414,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6F59848C1F1642A1008AB27D /* [Run Script] Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[Run Script] Fabric";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run b03827589b39351ab12f892d60a6175e24893cff 99cedf2ea435c79c2779debb37bae3b999141faba7bb07637419cffdb618d8e2";
+		};
 		800D45F6601B6F85FB9E24BA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,7 +484,9 @@
 				6F59845E1F161842008AB27D /* ViewController.m in Sources */,
 				6F5984561F1616F6008AB27D /* main.m in Sources */,
 				6F5984551F1616F6008AB27D /* AppDelegate.m in Sources */,
+				6F5984911F1643B7008AB27D /* AppUtility.m in Sources */,
 				6F59845D1F161842008AB27D /* HorizontalBarChartViewController.m in Sources */,
+				6F59848B1F163FAC008AB27D /* ColorDataTable.m in Sources */,
 				4B74528C1F153D9E0049A0C0 /* BMSAxisValueFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +623,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = GZ499K6ALC;
 				INFOPLIST_FILE = "$(SRCROOT)/TheAppCodes/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosapex.Appstore.AppstorePreparation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,6 +642,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GZ499K6ALC;
 				INFOPLIST_FILE = "$(SRCROOT)/TheAppCodes/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosapex.Appstore.AppstorePreparation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
