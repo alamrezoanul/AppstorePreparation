@@ -132,8 +132,8 @@
 		6F0219A11F14E54D00990316 = {
 			isa = PBXGroup;
 			children = (
-				6F5984881F163C61008AB27D /* RealmTables */,
 				6F7FC63F1F15EE040053F3DE /* DependancyManager */,
+				6F5984881F163C61008AB27D /* RealmTables */,
 				4B7452891F153D9E0049A0C0 /* ChartsWrapper */,
 				6F0219C41F14E7BB00990316 /* FrameworksFromSource */,
 				6F0219AC1F14E54D00990316 /* TheAppCodes */,
@@ -160,8 +160,7 @@
 				6F5984511F1616F6008AB27D /* EntryPoint */,
 				6F0219AD1F14E54D00990316 /* Supporting Files */,
 			);
-			name = TheAppCodes;
-			path = ReleaseTest1;
+			path = TheAppCodes;
 			sourceTree = "<group>";
 		};
 		6F0219AD1F14E54D00990316 /* Supporting Files */ = {
@@ -169,8 +168,7 @@
 			children = (
 				6F021B181F14EC3F00990316 /* Info.plist */,
 			);
-			name = "Supporting Files";
-			path = "TheAppCodes/Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6F0219C41F14E7BB00990316 /* FrameworksFromSource */ = {
