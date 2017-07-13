@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/InfoSapex/Library/Developer/Xcode/DerivedData/Boardmaestro-gvgryovzbkhteiacoptphssbgzoo/Build/Products/Debug-iphonesimulator/LazyPDFKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "LazyPDFKit-Swift.h",
+          'external-contents': "/Users/InfoSapex/Library/Developer/Xcode/DerivedData/Boardmaestro-gvgryovzbkhteiacoptphssbgzoo/Build/Products/Debug-iphonesimulator/LazyPDFKit.framework/Headers/LazyPDFKit-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/InfoSapex/Library/Developer/Xcode/DerivedData/Boardmaestro-gvgryovzbkhteiacoptphssbgzoo/Build/Products/Debug-iphonesimulator/LazyPDFKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/InfoSapex/MobileProjects/iOS/BoardMeeting_iOS_Storyboard/Boardmaestro/BoardmaestroApp/Classes/ThridParty/LazyPDFKit/build/LazyPDFKit.build/Debug-iphonesimulator/LazyPDFKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

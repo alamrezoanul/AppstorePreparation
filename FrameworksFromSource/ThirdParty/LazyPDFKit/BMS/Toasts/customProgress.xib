@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="customProgress" customModule="LazyPDFKit" customModuleProvider="target">
+            <connections>
+                <outlet property="blueProgressBar" destination="Wwd-kK-fjG" id="1gA-KM-LpN"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" tag="3" contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Wwd-kK-fjG">
+                    <rect key="frame" x="600" y="15" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="color" red="0.2056935309" green="0.47321440949999999" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
