@@ -15,5 +15,6 @@
 #import "UtilitiesStatic.h"
 #import "customProgress.h"
 #import "UIView+Toast.h"
+#import "UIColor+HexString.h"
 
 #endif /* HeadersExposedFromLazyPDFKit_h */

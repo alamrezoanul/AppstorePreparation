@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4B74528C1F153D9E0049A0C0 /* BMSAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B74528B1F153D9E0049A0C0 /* BMSAxisValueFormatter.m */; };
-		6F021B111F14EA3800990316 /* LazyPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F021B091F14E7BB00990316 /* LazyPDFKit.framework */; };
-		6F021B121F14EA3800990316 /* LazyPDFKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F021B091F14E7BB00990316 /* LazyPDFKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F021B111F14EA3800990316 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F021B091F14E7BB00990316 /* LazyPDFKit.framework */; };
+		6F021B121F14EA3800990316 /* ReferenceProxy in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F021B091F14E7BB00990316 /* LazyPDFKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F038F271F17451100AF9DC0 /* ColorsListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F038F261F17451100AF9DC0 /* ColorsListingCell.xib */; };
+		6F038F2D1F1745D200AF9DC0 /* ColorsListingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F038F2C1F1745D200AF9DC0 /* ColorsListingCell.m */; };
 		6F5984551F1616F6008AB27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5984531F1616F6008AB27D /* AppDelegate.m */; };
 		6F5984561F1616F6008AB27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5984541F1616F6008AB27D /* main.m */; };
 		6F59845D1F161842008AB27D /* HorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F59845A1F161842008AB27D /* HorizontalBarChartViewController.m */; };
@@ -56,7 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6F021B121F14EA3800990316 /* LazyPDFKit.framework in Embed Frameworks */,
+				6F021B121F14EA3800990316 /* ReferenceProxy in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +75,9 @@
 		6F021A881F14E7BB00990316 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F021A891F14E7BB00990316 /* LazyPDFKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyPDFKitTests.m; sourceTree = "<group>"; };
 		6F021B181F14EC3F00990316 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F038F261F17451100AF9DC0 /* ColorsListingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ColorsListingCell.xib; path = TableViewCells/ColorsListingCell.xib; sourceTree = "<group>"; };
+		6F038F2B1F17459300AF9DC0 /* ColorsListingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorsListingCell.h; path = TableViewCells/ColorsListingCell.h; sourceTree = "<group>"; };
+		6F038F2C1F1745D200AF9DC0 /* ColorsListingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorsListingCell.m; path = TableViewCells/ColorsListingCell.m; sourceTree = "<group>"; };
 		6F5984521F1616F6008AB27D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F5984531F1616F6008AB27D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F5984541F1616F6008AB27D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,7 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7FC63E1F15E8670053F3DE /* StoreKit.framework in Frameworks */,
-				6F021B111F14EA3800990316 /* LazyPDFKit.framework in Frameworks */,
+				6F021B111F14EA3800990316 /* ReferenceProxy in Frameworks */,
 				BBDD12D1238C93566979D95F /* Pods_AppstorePreparation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,8 +137,8 @@
 		6F0219A11F14E54D00990316 = {
 			isa = PBXGroup;
 			children = (
-				6F5984881F163C61008AB27D /* RealmTables */,
 				6F7FC63F1F15EE040053F3DE /* DependancyManager */,
+				6F5984881F163C61008AB27D /* RealmTables */,
 				4B7452891F153D9E0049A0C0 /* ChartsWrapper */,
 				6F0219C41F14E7BB00990316 /* FrameworksFromSource */,
 				6F0219AC1F14E54D00990316 /* TheAppCodes */,
@@ -160,8 +165,7 @@
 				6F5984511F1616F6008AB27D /* EntryPoint */,
 				6F0219AD1F14E54D00990316 /* Supporting Files */,
 			);
-			name = TheAppCodes;
-			path = ReleaseTest1;
+			path = TheAppCodes;
 			sourceTree = "<group>";
 		};
 		6F0219AD1F14E54D00990316 /* Supporting Files */ = {
@@ -169,8 +173,7 @@
 			children = (
 				6F021B181F14EC3F00990316 /* Info.plist */,
 			);
-			name = "Supporting Files";
-			path = "TheAppCodes/Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6F0219C41F14E7BB00990316 /* FrameworksFromSource */ = {
@@ -226,6 +229,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6F038F2A1F17451A00AF9DC0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6F038F261F17451100AF9DC0 /* ColorsListingCell.xib */,
+				6F038F2B1F17459300AF9DC0 /* ColorsListingCell.h */,
+				6F038F2C1F1745D200AF9DC0 /* ColorsListingCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
 		6F5984511F1616F6008AB27D /* EntryPoint */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +265,7 @@
 		6F5984731F1626A7008AB27D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F038F2A1F17451A00AF9DC0 /* TableViewCells */,
 				6F5984741F1626A7008AB27D /* Assets.xcassets */,
 				6F5984751F1626A7008AB27D /* icon-table.pdf */,
 				6F5984771F1626A7008AB27D /* Storyboards */,
@@ -404,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F038F271F17451100AF9DC0 /* ColorsListingCell.xib in Resources */,
 				6F59847D1F1626A7008AB27D /* icon-table.pdf in Resources */,
 				6F5984801F1626A7008AB27D /* Main.storyboard in Resources */,
 				6F59847F1F1626A7008AB27D /* LaunchScreen.storyboard in Resources */,
@@ -484,6 +499,7 @@
 				6F59845E1F161842008AB27D /* ViewController.m in Sources */,
 				6F5984561F1616F6008AB27D /* main.m in Sources */,
 				6F5984551F1616F6008AB27D /* AppDelegate.m in Sources */,
+				6F038F2D1F1745D200AF9DC0 /* ColorsListingCell.m in Sources */,
 				6F5984911F1643B7008AB27D /* AppUtility.m in Sources */,
 				6F59845D1F161842008AB27D /* HorizontalBarChartViewController.m in Sources */,
 				6F59848B1F163FAC008AB27D /* ColorDataTable.m in Sources */,

@@ -4,19 +4,13 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ReleaseTest1.xcscheme</key>
+		<key>AppstorePreparation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>6F0219A91F14E54D00990316</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
