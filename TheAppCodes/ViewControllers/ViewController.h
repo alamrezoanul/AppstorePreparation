@@ -8,20 +8,33 @@
 
 #import <UIKit/UIKit.h>
 
+#import "AppUtility.h"
+
 #import "Charts-Swift.h"
 
 #import "LazyPDFKit/LazyPDFKit.h"
 
-@interface ViewController : UIViewController<LazyPDFViewControllerDelegate>
+#import "ColorsListingCell.h"
 
-#pragma mark - Chart
-//Start For Chart
-@property (nonatomic, strong) IBOutlet HorizontalBarChartView* chartViewPollResult;
-//End For Chart
+#import "LazyPDFKit/HeadersExposedFromLazyPDFKit.h"
+
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, LazyPDFViewControllerDelegate>
+{
+    AppUtility *appUtil;
+}
+#pragma mark - Properties
+
+//Start For UITableView
+@property (nonatomic, strong) IBOutlet UITableView* vwColorsListing;
+//End For UITableView
+
 
 #pragma mark - LazyPDFKit
 - (IBAction)openPDF:(id)sender;
 
 - (IBAction)openChart:(id)sender;
+
+- (IBAction)crashButtonTapped:(id)sender;
+
 @end
 

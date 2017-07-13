@@ -14,6 +14,7 @@
 
 #import "LazyPDFKit/HeadersExposedFromLazyPDFKit.h"
 
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppUtility : CommonMethods
 {
@@ -24,6 +25,10 @@
 
 @property (nonatomic, retain) UIViewController *parent;
 
--(RLMRealm *)getAndBeginWriteTransaction;
+-(RLMRealm *)getAndBeginWriteTransaction : (BOOL) begin;
 -(void)commitWriteTransaction : (RLMRealm *)realm;
+
+- (RLMResults *) saveAndLoadToRealmResultsFromArray : (NSArray *) arr forKey: (NSString *) strObjectType;
+
+- (void) forceACrash;
 @end

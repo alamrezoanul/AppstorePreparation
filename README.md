@@ -21,3 +21,8 @@ Voila!!
 
 * Rezoanul Alam Riad
 * alamrezoanul@gmail.com
+
+### Something great to take a look at leisure time ###
+* https://fabric.io/kits/ios/crashlytics/install
+* https://fabric.io/kits/ios/crashlytics/features
+* http://htmlcolorcodes.com/

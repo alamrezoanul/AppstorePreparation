@@ -51,7 +51,7 @@
 #define kTOONRealmDBExtension @"realm"
 #define kPlatformType @"ios"
 #define kEnterCompanyTextBoxPlaceHolderText @"Enter Company UID(e.g. 1587618556):"
-#define kLicenseServerBaseURL @"http://10.160.72.57:8080" //@"http://182.160.114.45:8080"
+#define kLicenseServerBaseURL @"http://10.160.72.57:8080"
 #define kLicenseServerUserName @"riad@infosapex.com"
 #define kLicenseServerPassword @"12345678"
 #define kSavingCompanyUIDKey @"CurrentCompanyUid"

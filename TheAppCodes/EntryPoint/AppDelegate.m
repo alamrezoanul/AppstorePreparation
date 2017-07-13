@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [Fabric with:@[[Crashlytics class]]];
+    // TODO: Move this to where you establish a user session
+    [self logUser];
     return YES;
 }
 
@@ -48,5 +52,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Custom Methods
+- (void) logUser {
+    // TODO: Use the current user's information which could be your app's logged in user or Mac logged in user
+    // You can call any combination of these three methods
+    [CrashlyticsKit setUserIdentifier:@"alamrezoanul"];
+    [CrashlyticsKit setUserEmail:@"alamrezoanul@gmail.com"];
+    [CrashlyticsKit setUserName:@"rezoanul alam riad"];
+}
 
 @end

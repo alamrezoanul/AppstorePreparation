@@ -67,6 +67,9 @@
 		4BDE3EDE1F14036C00F64AE7 /* ThumbsMainToolbar.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 904839741AB6A9B900E62E60 /* ThumbsMainToolbar.h */; };
 		4BDE3EDF1F14036C00F64AE7 /* ThumbsViewController.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 904839761AB6A9B900E62E60 /* ThumbsViewController.h */; };
 		4BDE3EE01F14036C00F64AE7 /* UIXToolbarView.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 904839781AB6A9B900E62E60 /* UIXToolbarView.h */; };
+		6F038F341F1764E300AF9DC0 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F038F321F1764E300AF9DC0 /* UIColor+HexString.h */; };
+		6F038F351F1764E300AF9DC0 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F038F331F1764E300AF9DC0 /* UIColor+HexString.m */; };
+		6F038F361F17654A00AF9DC0 /* UIColor+HexString.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6F038F321F1764E300AF9DC0 /* UIColor+HexString.h */; };
 		6F6309331F0E49D0006094B7 /* LazyPDFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904839371AB6A9B900E62E60 /* LazyPDFDataManager.m */; };
 		6F6309341F0E49D0006094B7 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 904838FF1AB6A9B900E62E60 /* Annotation.m */; };
 		6F6309351F0E49D0006094B7 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 904839021AB6A9B900E62E60 /* CGPDFDocument.m */; };
@@ -224,6 +227,7 @@
 			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
 			dstSubfolderSpec = 16;
 			files = (
+				6F038F361F17654A00AF9DC0 /* UIColor+HexString.h in Copy . Public Headers */,
 				4BDE3EB41F14036C00F64AE7 /* HeadersExposedFromLazyPDFKit.h in Copy . Public Headers */,
 				4BDE3EB51F14036C00F64AE7 /* customProgress.h in Copy . Public Headers */,
 				4BDE3EB61F14036C00F64AE7 /* UIView+Toast.h in Copy . Public Headers */,
@@ -276,6 +280,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F038F321F1764E300AF9DC0 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "Commons/UIColor+HexString.h"; sourceTree = "<group>"; };
+		6F038F331F1764E300AF9DC0 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "Commons/UIColor+HexString.m"; sourceTree = "<group>"; };
 		6FA703991F120E1B0009C239 /* customProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customProgress.h; sourceTree = "<group>"; };
 		6FA7039A1F120E1B0009C239 /* customProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customProgress.m; sourceTree = "<group>"; };
 		6FA7039B1F120E1B0009C239 /* customProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customProgress.xib; sourceTree = "<group>"; };
@@ -463,6 +469,8 @@
 			isa = PBXGroup;
 			children = (
 				6FDBB5101F12482C00BEAE97 /* HeadersExposedFromLazyPDFKit.h */,
+				6F038F321F1764E300AF9DC0 /* UIColor+HexString.h */,
+				6F038F331F1764E300AF9DC0 /* UIColor+HexString.m */,
 				6FA703981F120E1B0009C239 /* Toasts */,
 				6FE0FECC1F0E517800814DDD /* Commons */,
 			);
@@ -684,6 +692,7 @@
 			files = (
 				904839DE1AB6A9B900E62E60 /* LazyPDFDataManager.h in Headers */,
 				904839C31AB6A9B900E62E60 /* LazyPDFColorIndicatorView.h in Headers */,
+				6F038F341F1764E300AF9DC0 /* UIColor+HexString.h in Headers */,
 				90483A0D1AB6A9B900E62E60 /* LazyPDFThumbQueue.h in Headers */,
 				90483A481AB6A9B900E62E60 /* UIXToolbarView.h in Headers */,
 				904839C61AB6A9B900E62E60 /* LazyPDFColorPicker.h in Headers */,
@@ -916,6 +925,7 @@
 				6F6309401F0E49D0006094B7 /* LazyPDFDocument.m in Sources */,
 				6F6309411F0E49D0006094B7 /* LazyPDFDocumentOutline.m in Sources */,
 				6FE0FED61F0E517800814DDD /* CommonMethods.m in Sources */,
+				6F038F351F1764E300AF9DC0 /* UIColor+HexString.m in Sources */,
 				6F6309421F0E49D0006094B7 /* LazyPDFDrawingTools.m in Sources */,
 				6F6309431F0E49D0006094B7 /* LazyPDFDrawingView.m in Sources */,
 				6F6309441F0E49D0006094B7 /* LazyPDFDrawToolbar.m in Sources */,
